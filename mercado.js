@@ -56,7 +56,7 @@ const produtos = [
         codigo: 7,
         nome: 'Feijão',
         preco: 8.99,
-        img: "feijao.jpg"
+        img: "img/feijao.jpg"
     },
 
     feijaoPreto = {
