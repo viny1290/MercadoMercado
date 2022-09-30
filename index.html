@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="mercado.css">
+    <title>MercadoMercado</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Mercado Mercado</h1>
+    </header>
+    <main class="meio">
+        <section class="pesquisa">
+            <input class="pesquisa__campo" type="number" data-areaPesquisa="codigo" placeholder="Codigo do produto">
+            <button class="pesquisa__botao" data-areaPesquisa="pesquisar">Pesquisar</button>
+        </section>
+
+        <section class="area--produtos">
+            <section>
+                <h2 class="area--produtos__titulo">Total:<h2>R$</h2><h2 class="area--produtos__total" data-compra="total"></h2></h2>
+
+                <div class="area--produtos__area--img">
+                    <img class="area--img__img" src="" data-compra="img">
+                </div>
+            </section>
+
+            <div class="area--produtos__carrinho">
+                <ul class="area--produtos__lista" data-compra="lista"></ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="mercado.js"></script>
+</body>
+</html>
